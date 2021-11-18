@@ -8,10 +8,10 @@ void main()
      a[3]=90;
      a[4]=30;
      
-    printf("a[0]=%d\n");
-    printf("a[1]=%d\n");
-    printf("a[2]=%d\n");
-   printf("a[3]=%d\n");
-  printf("a[4]=%d\n");
+    printf("a[0]=%d\n",a[0]);
+    printf("a[1]=%d\n",a[1]);
+    printf("a[2]=%d\n",a[2]);
+    printf("a[3]=%d\n",a[3]);
+    printf("a[4]=%d\n",a[4]);
 
 }
