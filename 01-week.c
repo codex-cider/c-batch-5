@@ -7,40 +7,40 @@ void main()
 
     if (a == 1)
     {
-        printf("monday");
+        printf("Monday");
     }
 
     else if (a == 2)
     {
-        printf("tuesday");
+        printf("Tuesday");
     }
 
     else if (a == 3)
     {
-        printf("wednesday");
+        printf("Wednesday");
     }
 
     else if (a == 4)
     {
-        printf("thursday");
+        printf("Thursday");
     }
 
     else if (a == 5)
     {
-        printf("friday ");
+        printf("Friday ");
     }
 
     else if (a == 6)
     {
-        printf("saturday");
+        printf("Saturday");
     }
-
+    
     else if (a == 7)
     {
-        printf("sunday");
+        printf("Sunday");
     }
     else
     {
-        printf("this is default");
+        printf("this is Default");
     }
 }

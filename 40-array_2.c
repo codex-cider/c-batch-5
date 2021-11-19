@@ -19,3 +19,4 @@ void main()
     printf("a[3]=%d\n", a[3]);
     printf("a[4]=%d\n", a[4]);
 }
+

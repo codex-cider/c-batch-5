@@ -3,6 +3,7 @@ void main()
 {
     //array is a collection of similar type of data
     int a[5]; //declaration of array type variable
+    //5 is index of array
     //10=size of array , inside the bracket we right size of array
     a[0] = 50;
     a[1] = 70;
