@@ -3,9 +3,10 @@ void main()
 {
     int i;
     int C;
-    int a[C];
     printf("The size of array : ");
     scanf("%d",&C);
+    int a[C];
+
 
     for(i = 0; i < C; i++)
     {
