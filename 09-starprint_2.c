@@ -2,8 +2,8 @@
 #include<stdio.h>
 void main()
 {
-    int i,a;
-    for(i=0;i<=5;i++)
+    int i=5,a;
+    for(i=5;i>=0;i--)
     {
         printf("\n ");
     
