@@ -14,7 +14,7 @@ void main()
     a[9] = 100;
     a[10] = 110;
 
-    printf("&a[1]=%x\n", &a[1]);
+    printf("&a[1]=%x\n", &a[1]); //x = hexadecimal value
     printf("a[2]=%d\n", a[2]);
     printf("&a[2]=%x\n", &a[2]);
     printf("a[3]=%d\n", a[3]);
