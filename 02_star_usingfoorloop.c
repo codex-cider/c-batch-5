@@ -7,15 +7,15 @@
 #include <stdio.h>
 void main()
 {
-    int a, i, row;
-    printf("enter number of rows you want-");
-    scanf("%d", &row);
-
-    for (a = row; a >= 0; a--)
+    for (int i = 0; i < 5; i++)
     {
-        for (i = 0; i <= a; i = row - i)
+        for (int j = 0; j <= i; j++)
         {
-            printf("*");
+            printf("  ");
+        }
+        for (int j = 0; j <= i; j++)
+        {
+            printf("#");
         }
         printf("\n");
     }
