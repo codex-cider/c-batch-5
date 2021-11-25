@@ -11,54 +11,54 @@ void main()
     printf("Enter her year : ");
     scanf("%d",&year);
 
-    printf(" %d\n",date);
+    printf("%d ",date);
     if ( month==1 )
     {
-        printf("JANUARY\n");
+        printf("JANUARY ");
     }
     else if( month==2 )
     {
-        printf("FABRUARY\n");
+        printf("FABRUARY ");
     }
     else if( month==3 )
     {
-        printf("MARCH\n");
+        printf("MARCH ");
     }
     else if( month==4 )
     {
-        printf("APRIL\n");
+        printf("APRIL ");
     }
     else if( month==5 )
     {
-        printf("MAY\n");
+        printf("MAY ");
     }
     else if( month==6 )
     {
-        printf("JUNE\n");
+        printf("JUNE ");
     }
     else if( month==7 )
     {
-        printf("JULY\n");
+        printf("JULY ");
     }
     else if( month==8 )
     {
-        printf("AUGUST\n");
+        printf("AUGUST ");
     }
     else if( month==9 )
     {
-        printf("SEPTEMBER\n");
+        printf("SEPTEMBER ");
     }
     else if( month==10 )
     {
-        printf("OCTOMBER\n");
+        printf("OCTOMBER ");
     }
     else if( month==11 )
     {
-        printf("NOVEMBER\n");
+        printf("NOVEMBER ");
     }
     else if( month==12 )
     {
-        printf("DECEMBER\n");
+        printf("DECEMBER ");
     }
     printf("%d",year);
 
