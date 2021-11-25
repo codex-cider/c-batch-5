@@ -13,41 +13,47 @@ void main()
     switch (month)
     {
     case 1:
-        printf("JAN");
+        printf("JAN\n");
         break;
 
     case 2:
-        printf("FEB");
+        printf("FEB\n");
         break;
     case 3:
-        printf("MAR");
+        printf("MAR\n");
         break;
     case 4:
-        printf("APR");
+        printf("APR\n");
         break;
     case 5:
-        printf("MAY");
+        printf("MAY\n");
         break;
     case 6:
-        printf("JUN");
+        printf("JUN\n");
         break;
     case 7:
-        printf("JUL");
+        printf("JUL\n");
         break;
     case 8:
-        printf("AUG");
+        printf("AUG\n");
         break;
     case 9:
-        printf("SEP");
+        printf("SEP\n");
         break;
     case 10:
-        printf("OCT");
+        printf("OCT\n");
         break;
     case 11:
-        printf("NOV");
+        printf("NOV\n");
         break;
     case 12:
-        printf("DEC");
+        printf("DEC\n");
         break;
     }
+
+    int year;
+    printf("enter the year-\n");
+    scanf("%d", &year);
+
+    printf("%d%d%d", date, month, year);
 }
