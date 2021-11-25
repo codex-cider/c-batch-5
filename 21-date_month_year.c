@@ -8,7 +8,7 @@ void main()
    scanf("%d",&month);
    printf("enter the year :");
    scanf("%d",&year);
-   
+   printf("%d\n",date);
    if (month==1){
    printf("JANUARY\n");
    }
@@ -45,5 +45,9 @@ void main()
     else if(month==12){
    printf("DECEMBER\n");
    }
-   printf("date is :%d/%d/%d\n",date,month,year);
+   else
+   {
+   printf("not a month");
+   }
+   printf( "%d\n",year);
 }
