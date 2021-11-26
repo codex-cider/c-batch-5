@@ -10,13 +10,11 @@ void main()
     }
     printf("enter any no. for searching b = ");
     scanf("%d",&b);
-     for(i=0;i<=10;i++)
+     for(i=0;i<10;i++)
+     {
      if(a[i]==b)
      {
          printf("value is found\n");
      }
-      else
-      {
-          printf("value is not found\n");
-      }
+     }
 }
