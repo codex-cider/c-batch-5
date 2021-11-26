@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int i,b;
+    int i,b,found=0;
     int a[10];
      for(i=0;i<10;i++)
     {
@@ -17,4 +17,9 @@ void main()
          printf("value is found\n");
      }
      }
+      if(found!=a[i])
+      {
+        printf("value is not found");
+      }
+      
 }
