@@ -6,7 +6,7 @@ void main()
     while(i<5)
     {
     printf("you entered the value of a[%d] :", i );
-    scanf("%d",&a[5]);
+    scanf("%d",&a[i]);
     i++;
     }
 }
