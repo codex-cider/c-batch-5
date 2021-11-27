@@ -6,7 +6,7 @@ void main()
     scanf("%d",&table);
     while(i<=10)
     {
-        printf("%d\n",table*i);
+        printf("%d",table*i);
         i++;
     }
 
