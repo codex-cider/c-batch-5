@@ -21,12 +21,16 @@ void div()
 }
 void main()
 {
-    int options;
+    int option;
     printf("press 1 for sum\n");
     printf("press 2 for sub\n");
     printf("press 3 for mul\n");
     printf("press 4 for div\n");
-    scanf("%d",&options);
+    scanf("%d",&option);
+    if(option==1)
+    {
+        printf("calling sum\n");
+    }
 }
 
 
