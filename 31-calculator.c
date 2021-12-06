@@ -29,7 +29,7 @@ void main()
     scanf("%d",&option);
     if(option==1)
     {
-        printf("calling sum\n");
+        sum();
     }
 }
 
