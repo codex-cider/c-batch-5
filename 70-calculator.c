@@ -26,17 +26,16 @@ void div()
 }
 //function calling
 
-int option();
+void main()
 {
+    int option;
     printf("Enter one for sum\n");
     printf("Enter two for sub\n");
     printf("Enter two for sub\n");
     printf("Enter two for sub\n");
+    scanf("%d",&option);
+    if (option == 1)
+    {
+        sum();
+    }
 }
-
-void main()
-{
-    option();
-}
-
-
