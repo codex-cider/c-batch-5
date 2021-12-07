@@ -1,52 +1,58 @@
 #include<stdio.h>
+// function declaration
+
 void sum();
 void sub();
 void mul();
 void div();
+// function defination
 void sum()
 {
-    printf("called SUM");
+    printf("called sum");
 }
 void sub()
 {
-    printf("called SUB");
+    printf("called sub");
 }
 void mul()
 {
-    printf("called MUL");
+    printf("called mul");
 }
 void div()
 {
-    printf("called DIV");
+    printf("called div");
 }
+//function calling
+
 void main()
 {
     int option;
-    printf("press 1 for sum\n");
-    printf("press 2 for sub\n");
-    printf("press 3 for mul\n");
-    printf("press 4 for div\n");
+    printf("Enter one for sum\n");
+    printf("Enter two for sub\n");
+    printf("Enter two for mul\n");
+    printf("Enter two for sub\n");
     scanf("%d",&option);
-    if(option==1)
+    if (option == 1)
     {
         sum();
     }
-    else if(option==2)
+    
+     else if (option == 2)
     {
         sub();
     }
-    else if (option==3)
+    
+     else if (option == 3)
     {
         mul();
     }
-    else if (option==4)
+    
+    else if (option == 4)
     {
         div();
     }
     else
     {
-        printf("wrong option");
+        printf("\nThis is out of option");
     }
 }
-
-
