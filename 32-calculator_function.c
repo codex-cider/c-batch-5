@@ -43,7 +43,7 @@ void div()
     c=a/b;
     printf("DIV :%d",c);
 }
-void main()
+void start()
 {
     int option;
     printf("press 1 for sum\n");
@@ -72,4 +72,8 @@ void main()
          printf("wrong no.");
      }
 }
+    int main() 
+     {
+         start();
+     }
 
