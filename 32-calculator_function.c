@@ -74,6 +74,17 @@ void start()
 }
     int main() 
      {
-         start();
+         int a;
+            printf("enter the no. a :");
+            scanf("%d",&a);
+         do
+         {
+              start();
+         } 
+         while (a==1);
+         {
+             printf("press 1 for continue");
+         }
+         
      }
 
