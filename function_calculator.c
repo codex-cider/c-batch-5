@@ -81,5 +81,15 @@ void start()
 }
 void main()
 {
-    start();
+    int a;
+    printf("Enetr any number : ");
+    scanf("%d", &a);
+    do
+    {
+       start();
+    } 
+    while (a == 1);
+    {
+        printf("\n Press one for continue");
+    }
 }
