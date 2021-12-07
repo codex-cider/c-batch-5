@@ -37,17 +37,17 @@ void main()
         sum();
     }
     
-     if (option == 2)
+     else if (option == 2)
     {
         sub();
     }
     
-     if (option == 3)
+     else if (option == 3)
     {
         mul();
     }
     
-     if (option == 4)
+     else if (option == 4)
     {
         div();
     }
