@@ -31,6 +31,22 @@ void main()
     {
         sum();
     }
+    else if(option==2)
+    {
+        sub();
+    }
+    else if (option==3)
+    {
+        mul();
+    }
+    else if (option==4)
+    {
+        div();
+    }
+    else
+    {
+        printf("wrong option");
+    }
 }
 
 
