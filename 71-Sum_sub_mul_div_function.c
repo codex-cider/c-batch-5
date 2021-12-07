@@ -1,47 +1,59 @@
 #include<stdio.h>
-int a,b,c;
-void sum(a,b)
-{
- c=a+b;
-}
-void sub(a,b)
-{
-    c=a-b;
-}
-void mul(a,b)
-{
-    c=a*b;
-}
-void div(a,b)
-{
-    c=a/b;
-}
-void main()
-{
-    int a,b,c;
-    printf("Enetr wo value : \n");
-    scanf("%d%d",&a,&b);
+void sum();
+void sub();
+void mul();
+void div();
 
-
-    void sum(a,b,c);
-    void sub(a,b,c);
-    void mul(a,b,c);
-    void div(a,b,c);
-}
 void sum()
 {
-    printf("sum is :");
+    printf("called sum");
 }
-
 void sub()
 {
-    printf("sub is :",a-b);
+    printf("called sub");
 }
 void mul()
 {
-    printf("mul is :",a*b);
+    printf("called mul");
 }
 void div()
 {
-    printf("div is :");
+    printf("called div");
+}
+
+void main()
+{
+    int option;
+    printf("Enter one for sum\n");
+    printf("Enter two for sub\n");
+    printf("Enter two for mul\n");
+    printf("Enter two for sub\n");
+    scanf("%d",&option);
+    if (option == 1)
+    {
+        sum();
+    }
+    
+     else if (option == 2)
+    {
+        sub();
+    }
+    
+     else if (option == 3)
+    {
+        mul();
+    }
+    
+     else if (option == 4)
+    {
+        div();
+    }
+    else
+    {
+        printf("\nThis is out of option");
+    }
+}
+if ()
+{
+    /* code */
 }
