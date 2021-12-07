@@ -18,15 +18,33 @@ void sum()
 }
 void sub()
 {
-    printf("called sub");
+    int a, b, sub;
+    printf("Enetr first digit : ");
+    scanf("%d",&a);
+    printf("Enetr second digit : ");
+    scanf("%d",&b);
+    sub = a - b;
+    printf("sub is : %d",sub);
 }
 void mul()
 {
-    printf("called mul");
+    int a, b, mul;
+    printf("Enetr first digit : ");
+    scanf("%d",&a);
+    printf("Enetr second digit : ");
+    scanf("%d",&b);
+    mul = a * b;
+    printf("mul is : %d",mul);
 }
 void div()
 {
-    printf("called div");
+    int a, b, div;
+    printf("Enetr first digit : ");
+    scanf("%d",&a);
+    printf("Enetr second digit : ");
+    scanf("%d",&b);
+    div = a / b;
+    printf("div is : %d", div);
 }
 //function calling
 
