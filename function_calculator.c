@@ -38,7 +38,7 @@ void mul()
 }
 void div()
 {
-    int a, b, div;
+    float a, b, div;
     printf("Enetr first digit : ");
     scanf("%d",&a);
     printf("Enetr second digit : ");
@@ -48,7 +48,7 @@ void div()
 }
 //function calling
 
-void main()
+void start()
 {
     int option;
     printf("Enter one for sum\n");
@@ -65,7 +65,6 @@ void main()
     {
         sub();
     }
-    
      else if (option == 3)
     {
         mul();
@@ -79,4 +78,8 @@ void main()
     {
         printf("\nThis is out of option");
     }
+}
+void main()
+{
+    start();
 }
