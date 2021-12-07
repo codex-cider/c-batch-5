@@ -8,7 +8,13 @@ void div();
 // function defination
 void sum()
 {
-    printf("called sum");
+    int a, b, sum;
+    printf("Enetr first digit : ");
+    scanf("%d",&a);
+    printf("Enetr second digit : ");
+    scanf("%d",&b);
+    sum = a + b;
+    printf("sum is : %d", sum);
 }
 void sub()
 {
