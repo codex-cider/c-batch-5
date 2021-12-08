@@ -2,14 +2,17 @@
 void sum();
 void main()
 {
-    int a=10;
-    int b=20;
-    sum(a,b);
-
+    int a,b,c;
+    printf("enter the value of a :");
+    scanf("%d",&a);
+    printf("enter the value of b :");
+    scanf("%d",&b);
+    c=a+b;
+    sum(a,b,c); //arguments
 }
 
-void sum(int x,int y)
+void sum(int x,int y,int z)// perameter
 {
-    printf("%d,%d",x,y);
+    printf("sum is :%d",z);
 
 }
