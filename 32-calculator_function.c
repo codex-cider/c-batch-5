@@ -82,9 +82,6 @@ void start()
               start();
          } 
          while (a==1);
-         {
-             printf("press 1 for continue");
-         }
          
      }
 
