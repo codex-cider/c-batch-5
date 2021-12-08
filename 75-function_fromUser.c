@@ -7,12 +7,10 @@ void main()
     scanf("%d",&a);
     printf("Enter second number here : ");
     scanf("%d",&b);
-    int c = a + b;
-    printf("Sum of this number is : %d\n",c);
     sum(a, b);       // argument
 }
 
 void sum( int x, int y)   // perameter
 {
-    printf("%d, %d",x, y);
+    printf("sum is : %d",x+y);
 }
