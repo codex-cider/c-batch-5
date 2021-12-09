@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sum();
+void sum();  // void sum(int, int)
 void sub();
 void mul();
 void div();
@@ -20,7 +20,7 @@ void main()
     scanf("%d", &option);
     if (option == 1)
     {
-        sum(a, b);
+        sum(a, b);    // argument 
     }
     else if (option == 2)
     {
@@ -38,12 +38,6 @@ void main()
     {
         printf("You enter wrong no.");
     }
-
- /*   sum(a, b);       // argument
-    sub(a, b);
-    mul(a, b);
-    div(a, b);*/
-}
 
 void sum( int x, int y)   // perameter
 {
