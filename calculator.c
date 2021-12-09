@@ -1,9 +1,64 @@
 #include <stdio.h>
-#include "add.c"
-#include "sub.c"
-#include "mul.c"
-#include "div.c"
+void add()
+{
+    int a;
+    int b;
+    int sum;
 
+    printf("enter first number");
+    scanf("%d", &a);
+    printf("enter second number");
+    scanf("%d", &b);
+
+    sum = a + b;
+
+    printf("Sum of %d and %d is %d", a, b, sum);
+}
+void sub()
+{
+    int a;
+    int b;
+    int sub;
+
+    printf("enter first number");
+    scanf("%d", &a);
+    printf("enter second number");
+    scanf("%d", &b);
+
+    sub = a - b;
+
+    printf("sub of %d and %d is %d", a, b, sub);
+}
+void mul()
+{
+    int a;
+    int b;
+    int mul;
+
+    printf("enter first number");
+    scanf("%d", &a);
+    printf("enter second number");
+    scanf("%d", &b);
+
+    mul = a * b;
+
+    printf("mul of %d and %d is %d", a, b, mul);
+}
+void div()
+{
+    int a;
+    int b;
+    int div;
+
+    printf("enter first number");
+    scanf("%d", &a);
+    printf("enter second number");
+    scanf("%d", &b);
+
+    div = a / b;
+
+    printf("div of %d and %d is %d", a, b, div);
+}
 void main()
 {
 
@@ -33,6 +88,6 @@ void main()
     }
     else
     {
-        printf("nothing");
+        printf("invalid");
     }
 }
