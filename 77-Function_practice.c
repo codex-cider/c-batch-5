@@ -1,10 +1,9 @@
 #include<stdio.h>
-int a = 10;
-void student()
+void student(int a)
 {
-    printf("hiii");
+    printf("hiii \n%d",a);
 }
 void main()
 {
-    student();
+    student(10);
 }
