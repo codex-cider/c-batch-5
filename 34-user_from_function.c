@@ -18,7 +18,7 @@ void main()
     scanf("%d",&option);
      if(option==1)
      {
-         sum(a,b);
+         sum(a,b);//argument
      }
      else if (option==2)
      {
@@ -47,7 +47,7 @@ void sub(int x,int y)
 {
     printf("sub is :%d\n",x-y);
 
-}
+} 
 void mul(int x,int y)
 {
     printf("mul is :%d\n",x*y);

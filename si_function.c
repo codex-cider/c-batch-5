@@ -1,5 +1,5 @@
 #include<stdio.h>
-void si();
+void si(p,r,t);
 void main()
 {
   int p,r,t;
