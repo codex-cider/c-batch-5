@@ -1,10 +1,10 @@
 #include<stdio.h>
 void student();
-void student(int a)
+void student(int a,int b)
 {
-    printf("hi\na is:%d\n",a);
+    printf("hi\na is:%d\nb is :%d\n",a,b);
 }
 void main()
 {
-    student(10);
+    student(50,20);
 }
