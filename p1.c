@@ -3,6 +3,7 @@ void student();
 void student(int a,int b)
 {
     printf("hi\na is:%d\nb is :%d\n",a,b);
+    printf("sum is :%d\n",a+b);
 }
 void main()
 {
