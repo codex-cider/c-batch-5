@@ -18,7 +18,7 @@ void main()
     scanf("%d",&option);
      if(option==1)
      {
-         sum();
+         sum(a,b);
      }
      else if (option==2)
      {
@@ -36,10 +36,6 @@ void main()
      {
          printf("wrong no.");
      }
-    sum(a,b); //arguments
-    sub(a,b);
-    mul(a,b);
-    div(a,b);
 }
 
 void sum(int x,int y)// perameter

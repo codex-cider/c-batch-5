@@ -1,5 +1,5 @@
 #include<stdio.h>
-void sum();//function calling
+void sum();//function declare
 //function defination
 void sum()
 {                                                                               
