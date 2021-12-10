@@ -11,7 +11,7 @@ void main()
     scanf("%d",&a);
     printf("Enter number here for b : ");
     scanf("%d",&b);
-    
+
     int option;
     printf("Press 1 for sum\n");
     printf("Press 2 for sub\n");
@@ -38,7 +38,7 @@ void main()
     {
         printf("You enter wrong no.");
     }
-
+}
 void sum( int x, int y)   // perameter
 {
     printf("sum is : %d\n", x + y);
