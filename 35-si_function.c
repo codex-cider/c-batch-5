@@ -1,6 +1,11 @@
 #include<stdio.h>
 void si();
-void si()
+void si(int p,int r,int t)
+{
+  float si=(p*r*t)/100;
+   printf("simple intrest :%.2f",si);
+}
+void main()
 {
   float p,r,t;
    printf("enter the principal :");
@@ -9,10 +14,5 @@ void si()
    scanf("%f",&r);
    printf("enter the time :");
    scanf("%f",&t);
-  float si=(p*r*t)/100;
-   printf("simple intrest :%.2f",si);
-}
-void main()
-{
-  si();
+  si(p,r,t);
 }

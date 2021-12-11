@@ -2,10 +2,15 @@
 void student();
 void student(int a,int b)
 {
-    printf("hi\na is:%d\nb is :%d\n",a,b);
     printf("sum is :%d\n",a+b);
 }
 void main()
 {
-    student(50,20);
+    int a,b;
+    printf("enter the a :");
+    scanf ("%d",&a);
+    printf("enter the b :");
+    scanf ("%d",&b);
+    printf("a is:%d\nb is :%d\n",a,b);
+    student(a,b);
 }
