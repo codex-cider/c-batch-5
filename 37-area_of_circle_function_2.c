@@ -2,6 +2,8 @@
 void AreaOfCircle();
 void AreaOfCircle(int r)
 {
+    printf("enter the radius :");
+    scanf("%d",&r);
     float pi=3.14;
     float area_of_circle=pi*r*r;
     printf("enter the area of circle :%.2f",area_of_circle);
@@ -9,7 +11,5 @@ void AreaOfCircle(int r)
 void main()
 {
     float r;
-    printf("enter the radius :");
-    scanf("%f",&r);
     AreaOfCircle(r);
 }
