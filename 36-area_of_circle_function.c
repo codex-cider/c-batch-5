@@ -1,5 +1,5 @@
 #include<stdio.h>
-AreaOfCircle();
+AreaOfCircle(int);
 AreaOfCircle(int r)
 {
     float pi=3.14;
