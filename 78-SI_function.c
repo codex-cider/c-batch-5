@@ -8,12 +8,12 @@ void si(int p,int r,int t)
 }
 void main()
 {
-  float p, r, t;
-   printf("enter the principal : ");
-   scanf("%f", &p);
-   printf("enter the rate : ");
-   scanf("%f", &r);
-   printf("enter the time : ");
-   scanf("%f", &t);
-   si(p, r, t);
+    float p, r, t;
+    printf("enter the principal : ");
+    scanf("%f", &p);
+    printf("enter the rate : ");
+    scanf("%f", &r);
+    printf("enter the time : ");
+    scanf("%f", &t);
+    si(p, r, t);
 }
