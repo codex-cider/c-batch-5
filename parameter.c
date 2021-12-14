@@ -6,10 +6,31 @@
 #include <stdio.h>
 void simpleintrest();
 void area();
-
-void simpleintrest(principle, rate, time)
+void main()
 {
-    int principle, rate, time;
+    int option;
+    printf("press 1 for simple intrest\n");
+    printf("press 2 for area\n");
+    scanf("%d", &option);
+
+    if (option == 1)
+    {
+        simpleintrest();
+    }
+    else if (option == 2)
+    {
+        area();
+    }
+
+    else
+    {
+        printf("invalid");
+    }
+}
+
+void simpleintrest() //parameter mai variable declare krtai hai
+{                    //ek function ka data dusrai functrion mai daina ho to parameter use krtai hai
+    float principle, rate, time;
     printf("enter the value of principle:");
     scanf("%f", &principle);
     printf("enter the value of rate:");
@@ -18,23 +39,14 @@ void simpleintrest(principle, rate, time)
     scanf("%f", &time);
     float simpleintrest;
     simpleintrest = principle * rate * time / 100;
-    printf("simpleintrest is-%f", simpleintrest);
+    printf("simpleintrest is-%.1f\n", simpleintrest);
 }
-void area(pei, radius)
+void area()
 {
-    int pei = 3.14;
-    int radius;
+    float pei = 3.14;
+    float radius;
     printf("enter the value of radius:");
     scanf("%f", &radius);
     float area = pei * radius * radius;
-    printf("area of circle is:%f", area);
-}
-void main()
-{
-    int option;
-    printf("press 1 for simple intrest");
-    printf("press 2 for area");
-    scanf("%d", &option);
-    void simpleintrest();
-    void area();
+    printf("area of circle is:%.1f", area);
 }
