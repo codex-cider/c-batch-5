@@ -19,10 +19,10 @@ void areaofcircle()
     float pi = 3.14;
     printf("Enter here radius : ");
     scanf("%f",&r);
-    float areaofcircle = pi*r*r;
+    float areaofcircle = pi * r * r;
     printf("area of circle : %.2f",areaofcircle);
 } 
-void start()
+void main()
 {
     int option;
     printf("Enter one for simple intrest : \n");
