@@ -13,14 +13,14 @@ void si()
     float si=(p * r * t) / 100;
     printf("simple intrest :%.2f",si);
 }
-void areaofcircle()
+void areaOfcircle()
 {
     float r;
     float pi = 3.14;
     printf("Enter here radius : ");
     scanf("%f",&r);
-    float areaofcircle = pi * r * r;
-    printf("area of circle : %.2f",areaofcircle);
+    float areaOfcircle = pi * r * r;
+    printf("area of circle : %.2f",areaOfcircle);
 } 
 void main()
 {
