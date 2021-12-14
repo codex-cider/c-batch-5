@@ -32,8 +32,11 @@ void main()
     {
        si();
     }
-    else
+    else if (option==2)
     {
        AreaOfCircle();
+    }
+    else{
+        printf("this is invalid");
     }
 }
