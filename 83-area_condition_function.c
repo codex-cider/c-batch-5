@@ -1,47 +1,47 @@
 #include<stdio.h>
-void area_of_triangle();
-void area_of_square();
-void area_of_rectangle();
-void area_of_circle();
-void area_of_triangle()
+void areaOfTriangle();
+void areaOfSquare();
+void areaOfRectangle();
+void areaOfCircle();
+void areaOfTriangle()
 {
    float b, h;
    printf("enter the base :");
    scanf("%f", &b);
    printf("enter the height :");
    scanf("%f", &h);
-   float area_of_triangle=(b * h) / 2;
-   printf("Area of trianlge is : %.2f\n", area_of_triangle);
+   float areaOfTriangle=(b * h) / 2;
+   printf("Area of trianlge is : %.2f\n", areaOfTriangle);
 }
 
-void area_of_square()
+void areaOfSquare()
 {
     float a;
     printf("enter the area : ");
     scanf("%f", &a);
-    float area_of_square = a * a;
-    printf("Area of square : %.2f\n", area_of_square);
+    float  areaOfSquare = a * a;
+    printf("Area of square : %.2f\n",  areaOfSquare);
 }
 
-void area_of_rectangle()
+void areaOfRectangle()
 {
    float l, w;
    printf("enter the lenght :");
    scanf("%f", &l);
    printf("enter the width : ");
    scanf("%f", &w);
-   float area_of_rectangle = l * w;
-  printf("Area of rectangle : %.2f\n", area_of_rectangle);
+   float areaOfRectangle = l * w;
+  printf("Area of rectangle : %.2f\n",areaOfRectangle);
 }
 
-void area_of_circle()
+void  areaOfCircle()
 {
     float r;
     printf("enter the radius : ");
     scanf("%f", &r);
     float pi = 3.14;
-    float area_of_circle = pi * r * r;
-    printf("Area of circle is : %.2f\n", area_of_circle);
+    float areaOfCircle = pi * r * r;
+    printf("Area of circle is : %.2f\n",  areaOfCircle);
 }
 
 void main()
@@ -54,21 +54,21 @@ void main()
    scanf("%d",&option);
    if (option == 1)
    {
-      area_of_triangle();
+      areaOfTriangle();
    }
    else if (option == 2)
    {
-      area_of_square();
+      areaOfSquare();
    }
    else if(option == 3)
    {
-      area_of_rectangle();
+      areaOfRectangle();
    }
    else if(option == 4)
    {
-      area_of_circle();
+      areaOfCircle();
    }
-    else
+   else
    {
       printf("This is Wrong option");
    }
