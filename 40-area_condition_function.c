@@ -45,8 +45,8 @@ void main()
     int option;
     printf("Enter one for area of triangle\n");
     printf("Enter two for area  square\n");
-    printf("Enter two for area rectangle\n");
-    printf("Enter two for area circle\n");
+    printf("Enter three for area rectangle\n");
+    printf("Enter four for area circle\n");
     scanf("%d",&option);
     if (option == 1)
     {
