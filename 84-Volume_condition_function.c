@@ -36,6 +36,6 @@ void main()
     }
     else
     {
-        printf("Wrong option");
+        printf("This is Wrong option");
     }
 }
