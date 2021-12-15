@@ -8,7 +8,7 @@ void area_of_triangle()
    float b, h;
    printf("enter the base :");
    scanf("%f", &b);
-   printf("enter the hieght :");
+   printf("enter the height :");
    scanf("%f", &h);
    float area_of_triangle=(b * h) / 2;
    printf("Area of trianlge is : %.2f\n", area_of_triangle);
@@ -46,26 +46,30 @@ void area_of_circle()
 
 void main()
 {
-    int option;
-    printf("Enter one for area of triangle \n");
-    printf("Enter two for square \n");
-    printf("Enter two for rectangle \n");
-    printf("Enter two for circle \n");
-    scanf("%d",&option);
-    if (option == 1)
-    {
+   int option;
+   printf("Enter one for area of triangle \n");
+   printf("Enter two for square \n");
+   printf("Enter two for rectangle \n");
+   printf("Enter two for circle \n");
+   scanf("%d",&option);
+   if (option == 1)
+   {
       area_of_triangle();
-    }
-    if (option==2)
-    {
+   }
+   else if (option == 2)
+   {
       area_of_square();
-    }
-    if(option==3)
-    {
-       area_of_rectangle();
-    }
-    if(option==4)
-    {
-       area_of_circle();
-    }
+   }
+   else if(option == 3)
+   {
+      area_of_rectangle();
+   }
+   else if(option == 4)
+   {
+      area_of_circle();
+   }
+    else
+   {
+      printf("This is Wrong option");
+   }
 }

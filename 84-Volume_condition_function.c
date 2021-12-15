@@ -7,7 +7,7 @@ void volume_of_cylinder()
    float pi = 3.14;
    printf("enter the radius :");
    scanf("%f", &r); 
-   printf("enter the hieght :"); 
+   printf("enter the height :"); 
    scanf("%f", &h);
    float volume_of_cylinder = pi * r * r * h;
    printf("volume of cylinder : %.2f\n", volume_of_cylinder);
@@ -30,8 +30,12 @@ void main()
     {
         volume_of_cylinder();
     }
-    if(option==2)
+    else if(option==2)
     {
         volume_of_cube();
+    }
+    else
+    {
+        printf("Wrong option");
     }
 }
