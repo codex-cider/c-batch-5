@@ -4,10 +4,10 @@
 //traingle
 
 #include <stdio.h>
-void AreaOfRectangle();
-void AreaOfSquare();
-void AreaOfTraingle();
-void AreaOfCircle();
+void areaOfRectangle();
+void areaOfSquare();
+void areaOfTraingle();
+void areaOfCircle();
 void main()
 {
     int option;
@@ -19,19 +19,19 @@ void main()
 
     if (option == 1)
     {
-        AreaOfRectangle();
+        areaOfRectangle();
     }
     else if (option == 2)
     {
-        AreaOfSquare();
+        areaOfSquare();
     }
     else if (option == 3)
     {
-        AreaOfTraingle();
+        areaOfTraingle();
     }
     else if (option == 4)
     {
-        AreaOfCircle();
+        areaOfCircle();
     }
 
     else
@@ -40,7 +40,7 @@ void main()
     }
 }
 
-void AreaOfRectangle()
+void areaOfRectangle()
 {
     float l, b;
     printf("enter the value of l is:");
@@ -52,7 +52,7 @@ void AreaOfRectangle()
     area = l * b;
     printf("area of rectangle is-%.1f\n", area);
 }
-void AreaOfSquare()
+void areaOfSquare()
 
 {
     float a;
@@ -64,7 +64,7 @@ void AreaOfSquare()
     printf("area of square is-%.1f\n", area);
 }
 
-void AreaOfTraingle()
+void areaOfTraingle()
 {
     float b, h;
     printf("enter the value of b is:");
@@ -77,7 +77,7 @@ void AreaOfTraingle()
     printf("area of traingle is-%.1f\n", area);
 }
 
-void AreaOfCircle()
+void areaOfCircle()
 {
     float r;
     printf("enter the value of r is:");
