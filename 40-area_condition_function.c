@@ -1,44 +1,44 @@
 #include<stdio.h>
-void area_of_triangle();
-void area_of_square();
-void area_of_rectangle();
-void area_of_circle();
-void area_of_triangle()
+void AreaOfTriangle();
+void AreaOfSquare();
+void AreaOfRectangle();
+void AreaOfCircle();
+void AreaOfTriangle()
 {
    float b,h;
    printf("enter the base :");
    scanf("%f",&b);
-   printf("enter the hieght :");
+   printf("enter the height :");
    scanf("%f",&h);
-   float area_of_triangle=(b*h)/2;
-   printf("Area of trianlge is :%.2f\n",area_of_triangle);
+   float AreaOfTriangle=(b*h)/2;
+   printf("Area of triangle is :%.2f\n",AreaOfTriangle);
 }
-void area_of_square()
+void AreaOfSquare()
 {
     float a;
     printf("enter the area:");
     scanf("%f",&a);
-    float area_of_square=a*a;
-    printf("Area of square :%.2f\n",area_of_square);
+    float AreaOfSquare=a*a;
+    printf("Area of square :%.2f\n",AreaOfSquare);
 }
-void area_of_rectangle()
+void AreaOfRectangle()
 {
    float l,w;
-   printf("enter the lenght :");
+   printf("enter the length :");
    scanf("%f",&l);
    printf("enter the width :");
    scanf("%f",&w);
-   float area_of_rectangle=l*w;
-  printf("Area of rectangle :%.2f\n",area_of_rectangle);
+   float AreaOfRectangle=l*w;
+  printf("Area of rectangle :%.2f\n",AreaOfRectangle);
 }
-void area_of_circle()
+void AreaOfCircle()
 {
     float r;
     printf("enter the radius :");
     scanf("%f",&r);
     float pi=3.14;
-    float area_of_circle=pi*r*r;
-    printf("Area of circle is :%.2f\n",area_of_circle);
+    float AreaOfCircle=pi*r*r;
+    printf("Area of circle is :%.2f\n",AreaOfCircle);
 }
 void main()
 {
