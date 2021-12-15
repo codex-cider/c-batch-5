@@ -1,6 +1,6 @@
 #include<stdio.h>
-void volume_of_cylinder();
-void volume_of_cube();
+void volumeOfCylinder();
+void volumeOfCube();
 void volume_of_cylinder()
 {
    float r, h;
@@ -9,16 +9,16 @@ void volume_of_cylinder()
    scanf("%f", &r); 
    printf("enter the height :"); 
    scanf("%f", &h);
-   float volume_of_cylinder = pi * r * r * h;
-   printf("volume of cylinder : %.2f\n", volume_of_cylinder);
+   float volumeOfCylinder = pi * r * r * h;
+   printf("volume of cylinder : %.2f\n", volumeOfCylinder);
 }
-void volume_of_cube()
+void volumeOfCube()
 {
    float a;
    printf("enter the area : ");
    scanf("%f", &a); 
-   float volume_of_cube = a * a * a;
-   printf("volume of cube : %.2f\n", volume_of_cube);
+   float volumeOfCube = a * a * a;
+   printf("volume of cube : %.2f\n", volumeOfCube);
 }
 void main()
 {
@@ -28,11 +28,11 @@ void main()
     scanf("%d", &option);
     if(option == 1)
     {
-        volume_of_cylinder();
+        volumeOfCylinderr();
     }
     else if(option==2)
     {
-        volume_of_cube();
+        volumeOfCube();
     }
     else
     {
