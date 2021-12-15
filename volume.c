@@ -1,7 +1,7 @@
 //cube and cuboid
 #include <stdio.h>
-void VolumeOfCube();
-void VolumeOfCuboid();
+void volumeOfCube();
+void volumeOfCuboid();
 void main()
 {
     int option;
@@ -11,11 +11,11 @@ void main()
 
     if (option == 1)
     {
-        VolumeOfCube();
+        volumeOfCube();
     }
     else if (option == 2)
     {
-        VolumeOfCuboid();
+        volumeOfCuboid();
     }
 
     else
@@ -24,7 +24,7 @@ void main()
     }
 }
 
-void VolumeOfCube()
+void volumeOfCube()
 {
     float a;
     printf("enter the value of a is:");
@@ -34,7 +34,7 @@ void VolumeOfCube()
     volume = a * a * a;
     printf("volume of cube is-%.1f\n", volume);
 }
-void VolumeOfCuboid()
+void volumeOfCuboid()
 {
     float w, h, l;
     printf("enter the value of w is:");
