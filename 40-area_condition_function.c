@@ -23,7 +23,7 @@ void area_of_square()
 }
 void area_of_rectangle()
 {
-   int l,w;
+   float l,w;
    printf("enter the lenght :");
    scanf("%f",&l);
    printf("enter the width :");
@@ -44,24 +44,28 @@ void main()
 {
     int option;
     printf("Enter one for area of triangle\n");
-    printf("Enter two for square\n");
-    printf("Enter two for rectangle\n");
-    printf("Enter two for circle\n");
+    printf("Enter two for area  square\n");
+    printf("Enter two for area rectangle\n");
+    printf("Enter two for area circle\n");
     scanf("%d",&option);
     if (option == 1)
     {
       area_of_triangle();
     }
-    if (option==2)
+    else if (option==2)
     {
       area_of_square();
     }
-    if(option==3)
+    else if(option==3)
     {
        area_of_rectangle();
     }
-    if(option==4)
+    else if(option==4)
     {
        area_of_circle();
+    }
+    else
+    {
+       printf("wrong option");
     }
 }

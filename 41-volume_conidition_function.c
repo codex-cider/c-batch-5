@@ -30,8 +30,11 @@ void main()
     {
         volume_of_cylinder();
     }
-    if(option==2)
+    else if(option==2)
     {
         volume_of_cube();
+    }
+    else{
+        printf("wrong option");
     }
 }
