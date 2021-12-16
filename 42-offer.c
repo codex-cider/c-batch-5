@@ -7,4 +7,4 @@ void offer(int x,char y)
 void main()
 {
     offer(2,'a');
-}
+}              
