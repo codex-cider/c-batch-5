@@ -14,9 +14,9 @@ void main()
 
 int logic(int a, int b)
 {
-    printf("intelligance=%d\n", a);
-    printf("attitude=%d\n", b);
 
+    return a + b;
     int sum = a + b;
+
     printf("sum of overall status is:%d", sum);
 }
