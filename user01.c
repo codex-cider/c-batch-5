@@ -1,5 +1,5 @@
 #include <stdio.h>
-void logic();
+int logic();
 void main()
 {
 
@@ -12,9 +12,8 @@ void main()
     logic(intelligance, attitude);
 }
 
-void logic(int a, int b)
+int logic(int a, int b)
 {
 
-    int sum;
-    printf("sum of attitude and attitude is-%d", a + b);
+    return a + b;
 }
