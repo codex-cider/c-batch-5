@@ -1,8 +1,10 @@
 #include <stdio.h>
 void medium (int a, int b)
 {
+    int c;
     printf("Hindi = %d \n", a);
     printf("English = %d \n", b);
+    return c = (a + b) / 2;
 }
 void main (int a, int b)
 {
@@ -15,4 +17,7 @@ void main (int a, int b)
    scanf("%d", &english);
 
    medium(hindi, english);
+
+   int average = medium( );
 }
+
