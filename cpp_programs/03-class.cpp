@@ -8,7 +8,7 @@ class student
     {
         cout<<"hi";
     }
-};
+}
 int main()
 {
     student b; 
