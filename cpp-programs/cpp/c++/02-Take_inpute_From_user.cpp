@@ -1,10 +1,21 @@
+//cout is use to print string
+// cin = user se value laiga
+
 #include<iostream>
-int main()
+using namespace std;   // agr ye lgate h to hame bar bar cin or cout ke aage std:: ni lgana hoga. 
+int main()   // sirf main me voiud nin lgate 
 {
     int a,b;
-    std::cout << "Enter the value of a : ";
-    std::cin >>a;
-    std::cout << "Enter the value of b : ";
-    std::cin >>b;
-    std::cout << "Sum is : "<< a+b;
+    cout << "Enter the value of a : ";
+    cin >>a;
+    cout << "Enter the value of b : ";
+    cin >>b;
+    cout << "Sum is : "<< a+b;
+    printf("\nsum is : %d", a+b);  // kabi ye hme cpp me use krna to c ki header file add krna hogi 
+
+    printf("Sum of %d & %d is %d", a,b,a+b);
+    cout << "\nsum is : " << a  << " &" <<  b << " is" << a+b;
 }
+
+// data bainding // current obj this // 
+//class type ke variable ko object bolte h
