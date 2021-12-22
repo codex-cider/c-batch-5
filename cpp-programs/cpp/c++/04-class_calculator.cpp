@@ -5,26 +5,47 @@ class Calculator
     public : 
     int sum()
     {
-        cout << "sum is called : ";
+        int a, b;
+        cout << "\nEnter here the value of a : ";
+        cin >> a;
+        cout << "\nEnter here the value of b : ";
+        cin >> b;
+        cout << "\nsum is called : " << a + b;
     }
     int sub()
     {
-        cout << "sub is called : ";
+        int a, b;
+        cout << "\nEnter here the value of a : ";
+        cin >> a;
+        cout << "\nEnter here the value of b : ";
+        cin >> b;
+        cout << "\nsub is called : " << a - b;
     }
     int mul()
     {
-        cout << "mul is called : ";
+        int a, b;
+        cout << "\nEnter here the value of a : ";
+        cin >>a;
+        cout << "\nEnter here the value of b : ";
+        cin >> b;
+        cout << "\nmul is called : " << a * b;
     }
     int div()
     {
-        cout << "div is called : ";
+        int a, b;
+        cout << "\nEnter here the value of a : ";
+        cin >>a;
+        cout << "\nEnter here the value of b : ";
+        cin >> b;
+        cout << "\ndiv is called : " << a / b;
     }
 
 };
-
 int main()
 {
     Calculator x;
     x.sum();
+    x.sub();
+    x.sub();
+    x.sub();
 }
-
