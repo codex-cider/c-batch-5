@@ -24,6 +24,6 @@ class Calculator
 
 int main()
 {
-    int calculator;
+    calculator X;
 }
 
