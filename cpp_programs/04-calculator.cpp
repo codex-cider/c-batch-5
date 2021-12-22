@@ -19,7 +19,7 @@ class Calculator
         cout<<"div is called";
     }
 
-}
+};
 int main()
 {
     int calculator;
