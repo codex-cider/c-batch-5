@@ -20,3 +20,7 @@ class Calculator
     }
 
 }
+int main()
+{
+    int calculator;
+}
