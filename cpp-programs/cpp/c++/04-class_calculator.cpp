@@ -2,7 +2,7 @@
 using namespace std;
 class Calculator
 {
-
+    public : 
     int sum()
     {
         cout << "sum is called : ";
@@ -24,6 +24,7 @@ class Calculator
 
 int main()
 {
-    calculator X;
+    Calculator x;
+    x.sum();
 }
 
