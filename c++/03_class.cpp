@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-class mobile
+class Mobile
 {
 public:
     int mobileNumber;
@@ -10,4 +10,9 @@ public:
 
 int main()
 {
+    Mobile a;
+    Mobile b;
+    a.mobileNumber = "0";
+    b.ownerName = "Prachi";
+    return 0;
 }
