@@ -12,5 +12,5 @@ class mobile
 
 int main()
 {
-        
+    
 }
