@@ -1,5 +1,5 @@
 // cout is used to print string
-// in c++ we only use int becuse compiler haqs set the restrctions
+// in c++ we only use int becuse compiler haqs set the restrctions in only main
 // std= namespace
 //::=to access
 
