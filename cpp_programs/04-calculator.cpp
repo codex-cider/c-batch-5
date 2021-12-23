@@ -6,7 +6,7 @@ class Calculator
     int sum()
     {
         int a,b;
-        cout<<"enter the value of a :";
+        cout<<"\nenter the value of a :";
         cin>>a;
         cout<<"enter the value of b :";
         cin>>b;
@@ -15,7 +15,7 @@ class Calculator
     int sub()
     {
         int a,b;
-        cout<<"enter the value of a :";
+        cout<<"\nenter the value of a :";
         cin>>a;
         cout<<"enter the value of b :";
         cin>>b;
@@ -24,7 +24,7 @@ class Calculator
     int mul()
     {
         int a,b;
-        cout<<"enter the value of a :";
+        cout<<"\nenter the value of a :";
         cin>>a;
         cout<<"enter the value of b :";
         cin>>b;
@@ -32,10 +32,11 @@ class Calculator
     }
     int div()
     {
-        int a,b;
-        cout<<"enter the value of a :";
+        float a,b;
+        cout<<"\nenter the value of a :";
         cin>>a;
         cout<<"enter the value of b :";
+        cin>>b;
         cout << "div is called :"<<a/b;
     }
 };
