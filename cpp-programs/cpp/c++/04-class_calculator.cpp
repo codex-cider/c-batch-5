@@ -15,7 +15,7 @@ class Calculator
     int sub()
     {
         int a, b;
-        cout << "\nEnter here the value of a : ";
+        cout << "\n\nEnter here the value of a : ";
         cin >> a;
         cout << "\nEnter here the value of b : ";
         cin >> b;
@@ -39,7 +39,6 @@ class Calculator
         cin >> b;
         cout << "\ndiv is called : " << a / b;
     }
-
 };
 int main()
 {
