@@ -45,6 +45,6 @@ int main()
     Calculator x;
     x.sum();
     x.sub();
-    x.sub();
-    x.sub();
+    x.mul();
+    x.div();
 }
