@@ -8,23 +8,20 @@ public:
 int main()
 {
     Mobile a;
-    Mobile b;
-    Mobile c;
-    Mobile d;
-    Mobile e;
+
     a.brand = "redmi pro max";
-    b.battery = "80% in 5 min";
-    c.ram = "6gb";
-    d.camera = "108mp";
-    e.cost = "10k";
+    a.battery = "80% in 5 min";
+    a.ram = "6gb";
+    a.camera = "108mp";
+    a.cost = "10k";
     cout << "\nbrand name is:"
          << a.brand;
     cout << "\nbattery is:"
-         << b.battery;
+         << a.battery;
     cout << "\nstorage is:"
-         << c.ram;
+         << a.ram;
     cout << "\ncamera is:"
-         << d.camera;
+         << a.camera;
     cout << "\ncost of mobile is:"
-         << e.cost;
+         << a.cost;
 }
