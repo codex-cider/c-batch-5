@@ -4,15 +4,18 @@ using namespace std;
 class Mobile
 {
 public:
-    int mobileNumber;
-    string ownerName;
+    string companyName;
 };
 
 int main()
 {
     Mobile a;
     Mobile b;
-    a.mobileNumber = "0";
-    b.ownerName = "Prachi";
-    return 0;
+
+    a.companyName = "Redmi";
+    b.companyName = "samsung";
+    cout << "\ncompany name of mobile:"
+         << a.companyName;
+    cout << "\ncompany name of mobile:"
+         << b.companyName;
 }
