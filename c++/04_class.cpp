@@ -8,12 +8,17 @@ public:
 int main()
 {
     Mobile a;
+    cout << "brand name is-";
+    cin >> a.brand;
+    cout << "battery is about- ";
+    cin >> a.battery;
+    cout << "ram is-";
+    cin >> a.ram;
+    cout << "camera is of -";
+    cin >> a.camera;
+    cout << "cost of mobile is-";
+    cin >> a.cost;
 
-    a.brand = "redmi pro max";
-    a.battery = "80% in 5 min";
-    a.ram = "6gb";
-    a.camera = "108mp";
-    a.cost = "10k";
     cout << "\nbrand name is:"
          << a.brand;
     cout << "\nbattery is:"
