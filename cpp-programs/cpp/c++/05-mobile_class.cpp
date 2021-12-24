@@ -12,7 +12,7 @@ class Mobile
 
 int main()
 {
-    Mobile a;
+    Mobile a;   
 
     Mobile b;
 
