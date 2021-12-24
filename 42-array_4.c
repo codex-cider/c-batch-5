@@ -2,19 +2,18 @@
 void main()
 {
     int i;
-    int C;
+    int B;
     printf("The size of array : ");
-    scanf("%d",&C);
-    int a[C];
+    scanf("%d",&B);
+    int a[B];
 
-
-    for(i = 0; i < C; i++)
+    for(i = 0; i < B; i++)
     {
         printf("You enter the value of a[%d] : ",i);
         scanf("%d", &a[i]);
     }
 
-    for (i = 0; i < C; i++)
+    for (i = 0; i < B; i++)
     {
         printf("a[%d]=%d\n", i, a[i]);
     }

@@ -2,15 +2,25 @@
 #include<string.h>
 using namespace std;
 
-class mobile
+class Mobile
 {
     public : 
 
-    int model_no;
     string name;
+
 };
 
 int main()
 {
-    
+    Mobile a;
+
+    Mobile b;
+
+    a.name = "MI";
+
+    b.name = "REDMI";
+
+    cout << "\nName of mobile is : " << a. name;
+
+    cout << "\n\nName of mobile is : " << b. name;
 }
