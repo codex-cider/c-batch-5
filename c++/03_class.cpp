@@ -4,13 +4,13 @@ using namespace std;
 class Mobile
 {
 public:
-    string companyName;
+    string companyName; // class kai andar ek sai jyada variable create kr saktai hai
 };
 
 int main()
 {
-    Mobile a;
-    Mobile b;
+    Mobile a; // object is a blue print of class.
+    Mobile b; // class type kai variable ko object kehetai ghai
 
     a.companyName = "Redmi";
     b.companyName = "samsung";
