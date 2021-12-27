@@ -21,9 +21,9 @@ int main()
     cout << "Ram : ";
     cin >> a.ram;
     cout << "Battery : ";
-    cin >>a.battary;
+    cin >> a.battary;
     cout << "Camera : ";
-    cin  >>a.camera;
+    cin  >> a.camera;
     cout << "Price : ";
     cin >> a.price;
     
