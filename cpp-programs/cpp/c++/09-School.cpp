@@ -8,7 +8,6 @@ class School
     
     string S_name;
     int No_Of_teachers, T_classRooms, T_students, T_Busses;
-
 };
 int main()
 {
