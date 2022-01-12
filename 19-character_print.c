@@ -10,5 +10,4 @@ void main()
     printf("&ch[%d]=%d\n",i,&ch[i]);
     printf("\n");
     }
-
 }
