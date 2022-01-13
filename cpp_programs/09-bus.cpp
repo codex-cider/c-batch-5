@@ -15,24 +15,26 @@ class BusOpration
     Bus bus;
     void getDetails()
     {
-      cout<<"how many seats in the bus :";
+      cout<<"How many seats in the bus :";
       cin>>bus.seats;
-      cout<<"what is the starting point of the bus :";
+      cout<<"What is the starting point of the bus :";
       cin>>bus.startingPoint;
-      cout<<"what is the ending point of the bus :";
+      cout<<"What is the ending point of the bus :";
       cin>>bus.endingPoint;
-      cout<<"what type of the bus :";
+      cout<<"What type of the bus :";
       cin>>bus.type;
     }
     void printDetails()
     {
-      cout<<"how many seats in the bus :"<<bus.seats;
-      cout<<"what is the starting point of the bus :"<<bus.startingPoint;
-      cout<<"what is the ending point of the bus :"<<bus.endingPoint;
-      cout<<"what type of the bus :"<<bus.type;
+      cout<<"\nTotal seats in the Bus :"<<bus.seats;
+      cout<<"\nStarting point of the Bus :"<<bus.startingPoint;
+      cout<<"\nEnding point of the Bus :"<<bus.endingPoint;
+      cout<<"\nType of Bus :"<<bus.type;
     }
 };
 int main()
 {
-    
+    BusOpration x;
+    x.getDetails();
+    x.printDetails();
 }
