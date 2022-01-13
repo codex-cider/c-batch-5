@@ -13,7 +13,11 @@ class BusOpration
 {
     public:
     Bus bus;
-    
+    void getDetails();
+    void getDetails()
+    {
+        
+    }
 };
 int main()
 {
