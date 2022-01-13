@@ -24,8 +24,15 @@ class BusOpration
       cout<<"what type of the bus :";
       cin>>bus.type;
     }
+    void printDetails()
+    {
+      cout<<"how many seats in the bus :"<<bus.seats;
+      cout<<"what is the starting point of the bus :"<<bus.startingPoint;
+      cout<<"what is the ending point of the bus :"<<bus.endingPoint;
+      cout<<"what type of the bus :"<<bus.type;
+    }
 };
 int main()
 {
-   
+    
 }
