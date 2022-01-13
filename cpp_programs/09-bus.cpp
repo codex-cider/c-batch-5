@@ -9,6 +9,11 @@ class Bus
     string endingPoint;
     string type;
 };
+class BusOpration
+{
+    public:
+    int bus;
+};
 int main()
 {
    
