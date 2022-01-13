@@ -12,7 +12,8 @@ class Bus
 class BusOpration
 {
     public:
-    int bus;
+    BusOpration bus;
+
 };
 int main()
 {
