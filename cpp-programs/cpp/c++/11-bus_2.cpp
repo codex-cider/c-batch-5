@@ -32,7 +32,10 @@ class BusOpration
         cout<<"The type of this bus : " <<bus.type;
     }
 };
+
 int main()
 {
-   
+    BusOpration x;
+    x.getDetails();
+    x.printDetails();
 }
