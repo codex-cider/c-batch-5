@@ -4,11 +4,11 @@
 using namespace std;
 int main()
 {
-    vector<string> character;
-    character.push_back("a");
-    character.push_back("e");
+    vector<char> character;
+    character.push_back('a');
+    character.push_back('e');
 
-    character.push_back("i ");
+    character.push_back('i');
 
     for (int i = 0; i < character.size(); i++)
     {
