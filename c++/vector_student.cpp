@@ -14,13 +14,10 @@ int main()
 {
     vector<Student> Student;
 
-    Student S1;
-    S1.Name = "Prachi";
-    Student.push_back(S1);
-    S1.RollNumber = "22";
-    Student.push_back(S1);
-    S1.Email = "prachigothwal52@gmail.com";
-    Student.push_back(S1);
-    S1.Mobile = "9617001332";
-    Student.push_back(S1);
+    Student s1;
+    s1.Name = "Prachi";
+    s1.Mobile = "9617001332";
+    s1.RollNumber = "22";
+    s1.Email = "prachigothwal52@gmail.com";
+    Student.push_back(s1);
 }
