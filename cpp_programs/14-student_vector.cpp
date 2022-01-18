@@ -13,7 +13,7 @@ int main()
 {
    vector<Student>students;
    Student s1;
-   s1.Name="ravi";
+   s1.Name="ravi yadav";
    s1.Email="kjshh@gmail.com";
    s1.Rollnumber=123;
    s1.Mobile=123456;
