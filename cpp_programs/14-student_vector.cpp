@@ -14,11 +14,8 @@ int main()
    vector<Student>students;
    Student s1;
    s1.Name="ravi";
-   students.push_back(s1);
    s1.Email="kjshh@gmail.com";
-   students.push_back(s1);
    s1.Rollnumber=123;
-   students.push_back(s1);
    s1.Mobile=123456;
    students.push_back(s1);
    cout<<s1.Name<<endl;
