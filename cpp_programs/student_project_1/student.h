@@ -15,4 +15,4 @@ class Student
    {
        cout<<"search student name :";
    }
-}
+};
