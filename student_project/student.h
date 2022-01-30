@@ -8,7 +8,7 @@ class Student
 public:
     int c, Roll_no, option;
     string Name, Email, mobile_no;
-    void addStudents()
+    void addStudent()
     {
         cout << "Add students name:";
         getline(cin, Name);
@@ -35,49 +35,55 @@ public:
             cout << "Students contact no  : " << st.mobile_no << endl;
         }
     }
-    void searchStudents()
+
+    bool findStudentByName(vector<Student> students, string name)
     {
-        cout << "search student name :";
-        getline(cin, Name);
-        //cin>>Name;
-        cout << "search students Email :";
-        getline(cin, Email);
-        //cin>>Email;
-        cout << "search students mobile no.:";
-        getline(cin, mobile_no);
-        //cin>>mobile_no;
-        cout << "search students Roll no. :";
-        cin >> Roll_no;
-        cin.ignore();
+        bool findStudent = false;
+        for (int i = 0; i < students.size(); i++)
+        {
+            Student st = students.at(i);
+            int result = st.Name.compare(name);
+            if (result == 0)
+            {
+                findStudent = true;
+            }
+        }
+        return findStudent;
     }
-    void deleteStudents()
+
+    void searchStudent(vector<Student> students)
     {
-        cout << "Delete Students name :";
-        getline(cin, Name);
-        // cin>>Name;
-        cout << "Delete students Email :";
-        getline(cin, Email);
-        // cin>>Email;
-        cout << "Delete students mobile no.:";
-        getline(cin, mobile_no);
-        //cin>>mobile_no;
-        cout << "Delete students Roll no. :";
-        cin >> Roll_no;
-        cin.ignore();
+        string n;
+        cout << "Enter student name :";
+        getline(cin, n);
+        bool findStudent = findStudentByName(students, n);
+        cout << "\n\n";
+        if (findStudent)
+        {
+            cout << "Studnet find with name -- " << n << endl;
+        }
+        else
+        {
+            cout << "Student not found" << endl;
+        }
     }
-    void deleteAllStudents()
+    vector<Student> deleteStudent(vector<Student> students)
     {
-        cout << "Delete all students Name:";
-        getline(cin, Name);
-        //cin>>Name;
-        cout << "Delete all students Email :";
-        getline(cin, Email);
-        // cin>>Email;
-        cout << "Delete all students mobile no.:";
-        getline(cin, mobile_no);
-        //cin>>mobile_no;
-        cout << "Delete all students Roll no. :";
-        cin >> Roll_no;
-        cin.ignore();
+        string n;
+        cout << "Enter student name :";
+        getline(cin, n);
+
+        vector<Student> s;
+
+        for (int i = 0; i < students.size(); i++)
+        {
+            Student st = students.at(i);
+            int find = st.Name.compare(n);
+            if (find != 0)
+            {
+                s.push_back(st);
+            }
+        }
+        return s;
     }
 };

@@ -22,7 +22,7 @@ int main()
         cin.ignore();
         if (s.option == 1)
         {
-            s.addStudents();
+            s.addStudent();
             students.push_back(s);
         }
         else if (s.option == 2)
@@ -31,15 +31,15 @@ int main()
         }
         else if (s.option == 3)
         {
-            s.searchStudents();
+            s.searchStudent(students);
         }
         else if (s.option == 4)
         {
-            s.deleteStudents();
+            students = s.deleteStudent(students);
         }
         else if (s.option == 5)
         {
-            s.deleteAllStudents();
+            students.clear();
         }
         else
         {
