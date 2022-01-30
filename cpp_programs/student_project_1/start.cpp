@@ -19,15 +19,17 @@ int con=0;
       cin.ignore();
       if(s.option==1)
       {
-          s.addStudents();
+          s.addStudent();
+          students.push_back(s);
       }
       else if(s.option==2)
       {
+
           s.printAllStudents(students);
       }
       else if(s.option==3)
       {
-          s.searchStudents();
+          s.searchStudent();
       }
       else if(s.option==4)
       {
@@ -35,7 +37,7 @@ int con=0;
       }
       else if(s.option==5)
       {
-         s.deleteAllStudents();
+        students.clear()
       }
       else
       {

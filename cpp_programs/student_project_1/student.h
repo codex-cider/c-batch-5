@@ -7,7 +7,7 @@ class Student
     public:
     int c,Roll_no,option;
     string Name,Email,mobile_no;
-      void addStudents()
+      void addStudent()
       {
           cout<<"Add students name:";
           getline(cin,Name);
@@ -30,14 +30,39 @@ class Student
               cout<<"\n******************************************/"<<endl;
               cout<<"Students Name :"<<st.Name<<endl;
               cout<<"Student email :"<<st.Email<<endl;
-              cout<<"Student roll no."<<st.Roll_no<<endl;
-              cout<<"Student contact no."<<st.mobile_no<<endl;
+              cout<<"Student roll no. :"<<st.Roll_no<<endl;
+              cout<<"Student contact no. :"<<st.mobile_no<<endl;
           }
           
       }
-      void searchStudents()
+      bool findStudentByName()
       {
-        
+        for(int i=0;i<student.size();i++)
+        {
+            Student st = student.at(i); 
+            int result = st.Name.compare(name);
+            if(result==0)
+            {
+                findStudent=true;
+            }
+        }
+        return findStudent;
+      }
+      void searchStudent()
+      {
+        string n;
+        cout<<"Enter student name";
+        getline(cin,n);
+        bool findStudent=findStudentByName(students,n);
+        cout<<"\n\n";
+        if(findStudent)
+        {
+            cout<<"Student find with name :"<<n<<endl;
+        }
+        else
+        {
+            cout<<"student not found"<<endl;
+        }
       }
        void deleteStudents()
       {
