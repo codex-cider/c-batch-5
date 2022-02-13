@@ -26,13 +26,12 @@ class BusOpration
     }
     void printDetails()
     {
-        cout<<"Total seats in the bus : " <<bus.seats;
-        cout<<"The starting point of the bus : " <<bus.startingPoint;
-        cout<<"The destination point of the bus : " <<bus.destination;
-        cout<<"The type of this bus : " <<bus.type;
+        cout<<"\nTotal seats in the bus : " << bus.seats;
+        cout<<"\nThe starting point of the bus : " << bus.startingPoint;
+        cout<<"\nThe destination point of the bus : " << bus.destination;
+        cout<<"\nThe type of this bus : " << bus.type;
     }
 };
-
 int main()
 {
     BusOpration x;

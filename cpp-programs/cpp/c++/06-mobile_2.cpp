@@ -5,12 +5,10 @@ class Mobile
     public : 
     char brand;
     int ram, battary, camera, price;
-    
 }; 
-
 int main()
 {
-    Mobile a;
+    Mobile a;   // a mobile type ka object h
     a.brand;
     a.ram ;
     a.battary;
@@ -30,6 +28,7 @@ int main()
     cin  >> a.camera;
     
     cout << "Price : ";
-    cin >> a.price;
-    
+    cin >> a.price;   
 }
+
+

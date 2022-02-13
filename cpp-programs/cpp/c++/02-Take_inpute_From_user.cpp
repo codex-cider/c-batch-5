@@ -12,9 +12,8 @@ int main()             // sirf main me void ni lgate
     cout << "Sum is : "<< a+b;
     printf("\nsum is : %d", a+b);     // kabi ye hme cpp me use krna to c ki header file add krna hogi 
 
-    printf("Sum of %d & %d is %d", a,b,a+b);
+    printf("\nSum of %d & %d is %d", a,b,a+b);
     cout << "\nsum is : " << a  << " &" <<  b << " is" << a+b;
 }
-
 // data bainding // current obj this 
 //class type ke variable ko object bolte h

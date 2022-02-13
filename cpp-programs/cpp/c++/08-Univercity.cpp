@@ -10,7 +10,6 @@ class Univercity
     int No_Of_faculties, T_classRooms, T_students, T_Busses;
 
 };
-
 int main()
 {
     Univercity x;
@@ -26,7 +25,7 @@ int main()
     cout << "Total no of faculties is : ";
     cin >> x.No_Of_faculties;
     
-    cout << "Totalno. of classrooms : ";
+    cout << "Total no. of classrooms : ";
     cin >> x.T_classRooms;
     
     cout << "Total no. of students : ";

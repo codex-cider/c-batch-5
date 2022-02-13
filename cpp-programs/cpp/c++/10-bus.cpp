@@ -15,12 +15,15 @@ int main()
     x.seats;
     x.startingPoint;
     x.destination;
+    x.type;
     cout<<"How many seats are in bus : ";
-    cin>>seats;
+    cin>>x.seats;
     cout<<"what is the starting point of this bus : ";
-    cin>>startingPoint;
+    cin>>x.startingPoint;
     cout<<"what is the destination of this bus : ";
-    cin>>destination;
+    cin>>x.destination;
     cout<<"what is the type of this bus : ";
-    cin>>destination;
+    cin>>x.type;
 }
+
+
