@@ -5,29 +5,30 @@ using namespace std;
 class Bikes
 {
     public:
-    int bike_modle_no,owers_mobile_no,bike_price,sold_date;
-    string owner_name,owers_address;
+    int owers_mobile_no,bike_price,option;
+    string owner_name,owers_address,bike_modle_no,sold_date;
     void addDetails()
     {
        cout<<"Add Owner Name :";
        getline(cin,owner_name);
        cout<<"Add Oweners Address :";
        getline(cin,owers_address);
+       cout<<"Add Bike Modle no. :";
+       getline(cin,bike_modle_no);
+       cout<<"Add Selling Date :";
+       getline(cin,sold_date);
        cout<<"Add Owners Mobile no. :";
        cin>>owers_mobile_no;
-       cout<<"Add Bike Modle no. :";
-       cin>>bike_modle_no;
+       cin.ignore();
        cout<<"Add bike Price :";
        cin>>bike_price;
-       cout<<"Add Selling Date :";
-       cin>>sold_date;
        cin.ignore();
     }
-    void printAllOwnersDetails(vector<Bike>Details)
+    void printAllOwnersDetails(vector<Bikes>Details)
     {
         for(int i=0;i<Details.size();i++)
         {
-          Bike st = Details.at(i);
+          Bikes st = Details.at(i);
         cout<<"\n********************************\n"<<endl;
         cout<<"Owner's Name :"<<st.owner_name<<endl;
         cout<<"Owner's Address :"<<st.owers_address<<endl;
@@ -37,15 +38,15 @@ class Bikes
         cout<<"Bike's Selling Date :"<<st.sold_date<<endl;
         }
     }
-    vector<Bikes> deleteOwnersDetails(vector<Bike>details)
+    vector<Bikes> deleteOwnersDetails(vector<Bikes>details)
     {
         string n;
           cout<<"Enter Owner's name :";
           getline(cin,n);
-          vector<Bike>b;
+          vector<Bikes>b;
           for(int i=0;i<details.size();i++)
           {
-              Bike st=details.at(i);
+              Bikes st=details.at(i);
               int find =st.owner_name.compare(n);
               if(find!=0)
               {
@@ -54,13 +55,12 @@ class Bikes
           } 
           return b;
     }
-}
-bool findOwnerByName(vector<Bike>details,string name)
+    bool findOwnerByName(vector<Bikes>details,string name)
       {
           bool findOwner = false;
         for(int i=0;i<details.size();i++)
         {
-            Bike st = details.at(i); 
+            Bikes st = details.at(i); 
             int result = st.owner_name.compare(name);
             if(result==0)
             {
@@ -69,7 +69,7 @@ bool findOwnerByName(vector<Bike>details,string name)
         }
         return findOwner;
       }
-      void searchOwner(vector<Bike>details)
+      void searchOwner(vector<Bikes>details)
       {
         string n;
         cout<<"Enter Owner name :";
@@ -84,3 +84,4 @@ bool findOwnerByName(vector<Bike>details,string name)
             cout<<"Owner not found"<<endl;
         }
       }
+};

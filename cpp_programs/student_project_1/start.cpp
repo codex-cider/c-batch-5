@@ -24,7 +24,6 @@ int con=0;
       }
       else if(s.option==2)
       {
-
           s.printAllStudents(students);
       }
       else if(s.option==3)
