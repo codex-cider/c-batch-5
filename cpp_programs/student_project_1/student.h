@@ -5,7 +5,7 @@ using namespace std;
 class Student
 {
     public:
-    int c,Roll_no,option;
+    int Roll_no,option;
     string Name,Email,mobile_no;
       void addStudent()
       {
@@ -35,8 +35,9 @@ class Student
           }
           
       }
-      bool findStudentByName()
+      bool findStudentByName(vector<Student>student,string name)
       {
+          bool findStudent = false;
         for(int i=0;i<student.size();i++)
         {
             Student st = student.at(i); 
@@ -48,10 +49,10 @@ class Student
         }
         return findStudent;
       }
-      void searchStudent()
+      void searchStudent(vector<Student>students)
       {
         string n;
-        cout<<"Enter student name";
+        cout<<"Enter student name :";
         getline(cin,n);
         bool findStudent=findStudentByName(students,n);
         cout<<"\n\n";
@@ -64,23 +65,21 @@ class Student
             cout<<"student not found"<<endl;
         }
       }
-       void deleteStudents()
+       vector<Student> deleteStudent(vector<Student>students)
       {
-          cout<<"Delete Students name :";
-          getline(cin,Name);
-         // cin>>Name;
-          cout<<"Delete students Email :";
-          getline(cin,Email);
-         // cin>>Email;
-          cout<<"Delete students mobile no.:";
-          getline(cin,mobile_no);
-          //cin>>mobile_no;
-          cout<<"Delete students Roll no. :";
-          cin>>Roll_no;
-           cin.ignore();
-      }
-       void deleteAllStudents()
-      {
-          
+          string n;
+          cout<<"Enter student name :";
+          getline(cin,n);
+          vector<Student>s;
+          for(int i=0;i<students.size();i++)
+          {
+              Student st=students.at(i);
+              int find =st.Name.compare(n);
+              if(find!=0)
+              {
+                  s.push_back(st);
+              }
+          } 
+          return s;
       }
 };

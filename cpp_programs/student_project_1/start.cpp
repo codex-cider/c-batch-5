@@ -29,15 +29,15 @@ int con=0;
       }
       else if(s.option==3)
       {
-          s.searchStudent();
+          s.searchStudent(students);
       }
       else if(s.option==4)
       {
-         s.deleteStudents(); 
+       students = s.deleteStudent(students);
       }
       else if(s.option==5)
       {
-        students.clear()
+        students.clear();
       }
       else
       {
