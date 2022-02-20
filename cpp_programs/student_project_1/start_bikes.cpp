@@ -40,7 +40,7 @@
       }
       else
       {
-          continue;
+         continue;
       }
       cout<<"press 1 for continue\n";
       cin>>A;
