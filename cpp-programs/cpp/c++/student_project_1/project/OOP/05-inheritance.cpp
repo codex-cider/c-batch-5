@@ -37,7 +37,7 @@ public :
     }
 };
 
-void main()
+int main()
 {
     string name, rollNumber, collegeName;
 
@@ -49,5 +49,7 @@ void main()
 
     cout << "Enter your college name : ";
     getline(cin, collegeName);
-    
+
+    student st(name, rollNumber, collegeName);
+    st.printStudentinfo(); 
 }
