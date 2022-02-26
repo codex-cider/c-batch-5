@@ -7,7 +7,7 @@ class College
     protected:
     string collegename;
     public:
-    collage (string collegename)
+    College (string collegename)
     {
         this->collegename=collegename;
     }
@@ -33,7 +33,7 @@ class Student:public College
 int main()
 {
    string name,rollNumber,collegename;
-   cout<<"Enter Name :"
+   cout<<"Enter Name :";
    getline(cin,name);
    cout<<"Enter Roll Number :";
    getline(cin,rollNumber);
